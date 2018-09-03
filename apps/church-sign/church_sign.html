@@ -9,7 +9,7 @@
 // ======================================================
 function PutHTML(htmltext) {
 	var http = new XMLHttpRequest();
-	var url = 'http://192.168.4.100';
+	var url = 'https://192.168.4.100';
 	
 	var params = '<sign>{' + htmltext + '}<endsign>';
 	http.open('POST', url, true);
